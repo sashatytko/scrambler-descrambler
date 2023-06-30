@@ -37,7 +37,7 @@ blocks:
   id: variable_qtgui_range
   parameters:
     comment: ''
-    gui_hint: ''
+    gui_hint: 1, 0, 1, 4
     label: Inversion freq 0
     min_len: '200'
     orient: QtCore.Qt.Horizontal
@@ -58,7 +58,7 @@ blocks:
   id: variable_qtgui_range
   parameters:
     comment: ''
-    gui_hint: ''
+    gui_hint: 2, 0, 1, 4
     label: Inversion freq 1
     min_len: '200'
     orient: QtCore.Qt.Horizontal
@@ -79,7 +79,7 @@ blocks:
   id: variable_qtgui_range
   parameters:
     comment: ''
-    gui_hint: ''
+    gui_hint: 3, 0, 1, 4
     label: Inversion freq 2
     min_len: '200'
     orient: QtCore.Qt.Horizontal
@@ -100,7 +100,7 @@ blocks:
   id: variable_qtgui_range
   parameters:
     comment: ''
-    gui_hint: ''
+    gui_hint: 4, 0, 1, 4
     label: Inversion freq 3
     min_len: '200'
     orient: QtCore.Qt.Horizontal
@@ -121,7 +121,7 @@ blocks:
   id: variable_qtgui_chooser
   parameters:
     comment: ''
-    gui_hint: ''
+    gui_hint: 0, 0, 1, 4
     label: Inversion variant
     label0: Simple inversion
     label1: Split band inversion (2 freq)
